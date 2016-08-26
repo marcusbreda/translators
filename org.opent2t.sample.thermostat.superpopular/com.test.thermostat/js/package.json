@@ -1,0 +1,25 @@
+{
+  "name": "opent2t-translator-com-test-thermostat",
+  "version": "1.0.0",
+  "description": "Test Thermostat",
+  "homepage": "http://opentranslatorstothings.org",
+  "main": "thingTranslator.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava"
+  },
+  "ava": {
+    "files": [
+      "tests/*.js"
+    ]
+  },
+  "dependencies": { },
+
+  "devDependencies": {
+    "optimist": "*",
+    "opent2t": "*",
+    "opent2t-onboarding-manual": "*",
+    "jshint": "^2.9.2",
+    "ava": "^0.15.2"
+  }
+}

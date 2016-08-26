@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <!-- associated voice handler -->
+  <voice id="org.opent2t.sample.CheckTemperature.cortana.vcd.superpopular" />
+  <!-- associated schemas -->
+  <schemas>
+      <schema id="org.opent2t.sample.thermostat.superpopular" main="true" type="OCF" />
+      <schema id="oic.r.temperature" type="OCF" />
+      <schema id="oic.r.clock" type="OCF" />
+      <schema id="oic.r.humidity" type="OCF" />
+      <schema id="oic.r.mode" type="OCF" />
+      <schema id="oic.core" type="OCF" />
+      <schema id="oic.baseResource" type="OCF" />
+  </schemas>
+  <!-- associated onboarding module -->
+  <onboarding id="org.opent2t.onboarding.manual">
+    <arg name="name" value="Test Thermostat" />
+  </onboarding>
+</manifest>
